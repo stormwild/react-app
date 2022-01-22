@@ -6,11 +6,17 @@
 
 // app.appendChild(el);
 
-const Hello = function(props) {
+class Hello extends React.Component {
+  render() {
     return React.createElement(
-        "h1",
-        { className: "orange" },
-        "Hello From Pluralsight and React: " + props.time
-      );      
+      "h1",
+      { className: "orange" },
+      "Hello From Pluralsight and React: " + this.props.time
+    );
+  }
 }
-ReactDOM.render(React.createElement(Hello, { time: new Date().toLocaleDateString() }, null), document.getElementById("app"));
+
+ReactDOM.render(
+  React.createElement(Hello, { time: new Date().toLocaleDateString() }, null),
+  document.getElementById("app")
+);
