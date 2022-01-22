@@ -1,0 +1,20 @@
+{
+  "name": "react-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stormwild/react-app.git"
+  },
+  "keywords": [],
+  "author": "Alexander R. Torrijos <artorrijos@gmail.com> (https://stormwild.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stormwild/react-app/issues"
+  },
+  "homepage": "https://github.com/stormwild/react-app#readme"
+}
